@@ -8,6 +8,11 @@ This project focuses on preparing and analyzing the [Bank Marketing Dataset](htt
 - Adding **synthetic features** that improve analysis.
 - Exporting the transformed data into **Parquet format** for efficient storage.
 - Generating insights with **data visualizations**.
+
 ## 🎥 RAG-Based Insights  Demo
 
 Demo for RAG-based assistant analyzing the Bank Marketing Dataset using Streamlit
+
+
+https://github.com/user-attachments/assets/b4bd39f0-5b12-4914-9d0c-a423ebb1330c
+
