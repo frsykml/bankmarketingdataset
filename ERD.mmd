@@ -1,0 +1,30 @@
+erDiagram
+    CUSTOMER {
+        int customer_id PK
+        int age
+        string job
+        string marital
+        string education
+        string defaults
+        float balance
+        string housing
+        string loan
+        string age_group
+        int has_loan_or_housing
+    }
+
+    CAMPAIGN {
+        int campaign_id PK
+        int customer_id FK
+        string contact
+        int day
+        string month
+        int duration
+        int campaign
+        int pdays
+        int previous
+        string poutcome
+        string deposit
+    }
+
+    CUSTOMER ||--o{ CAMPAIGN : has
